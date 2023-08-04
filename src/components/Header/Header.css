@@ -1,0 +1,19 @@
+.header-title{
+    letter-spacing: 3px;;
+    text-align: center;
+    margin: 15px auto;
+
+    padding: 10px 20px;
+    border :none;
+    border-radius: 8px;
+    font-size: 40px;
+    background-color: #1f8484;
+    color:rgb(255, 255, 255);
+    position: sticky;
+
+}
+.header-title:hover{
+    transition: 0.5s ease;
+    background-color: #1a6d6d;
+    color:white;
+}

@@ -1,11 +1,38 @@
 
 .gallery-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: aliceblue;
 
 }
 .navigation-btns{
     display: flex;
     gap:20px;
+}
+.nav-btn{
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    transition: all ease 0.2s;
+    background-color: black;
+    border: 1px solid  #1f8484
+
+}
+.nav-btn:hover{
+    box-shadow: 3px 3px 0px #1e8b8b;
+
+}
+.image-list{
+    /* border: 1px solid red;; */
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: auto;
+    padding: 10px;
+    gap:10px;
 }

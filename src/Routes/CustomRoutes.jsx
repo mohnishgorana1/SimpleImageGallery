@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom"
 
-import ImageDetails from "../components/ImageDetails/ImageDetails"
-import App from "../App"
+import CanvaIO from "../components/CanvaIO/CanvaIO.jsx"
+import ImageDetails from "../components/ImageDetails/ImageDetails.jsx"
 
 function CustomRoutes() {
     return (
       <Routes>
-        <Route path="/" element= {App} />
-        <Route path="/image/:id" element={ImageDetails} />
+        <Route path="/" element= { <CanvaIO /> } />
+        <Route path="/image/:id" element={ <ImageDetails />} />
       </Routes>
   )
 }

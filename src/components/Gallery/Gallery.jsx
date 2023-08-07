@@ -64,9 +64,10 @@ function Gallery() {
         <div className="image-list">
           { (isLoading) ? "Loading" : imageList.map((image) => (
                 <Image
-                  title={image.title}
-                  imageUrl={image.imageUrl}
-                  key={image.id}
+                  title = {image.title}
+                  imageUrl = {image.imageUrl}
+                  key = {image.id}
+                  id = {image.id}
                 />
               ))
           }

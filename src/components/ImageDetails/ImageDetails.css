@@ -1,0 +1,45 @@
+div{
+    color: aliceblue;
+}
+.image-details-page{
+    margin: auto;
+}
+.image-wrapper{
+    margin-top: 20px;;
+    border-radius: 3rem;
+    width: 90vw;
+    display: flex;
+    padding: 10px 5px;;
+}
+.image-wrapper:hover{
+    box-shadow: 3px 3px 10px #1f8484;
+}
+.img{
+    width: 35vw;
+    height: 60vh;
+    border-radius: 2rem;
+}
+.image-details{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10vh;
+}
+.image-name{
+    font-size: 25px;
+
+}
+.attribute{
+    color:#1f8484;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+.image-desc{
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 30px;;
+}
+
